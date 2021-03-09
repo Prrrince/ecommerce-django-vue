@@ -1,3 +1,4 @@
+Live at : https://my-shoestore.herokuapp.com/
 An E-Commerce Single Page Application created using Django Rest API and Vue Js.
 
 Main Dependencies:
