@@ -1,21 +1,17 @@
-# shoe-store
+Live at : https://my-shoestore.herokuapp.com/
 
-> A Vue.js project
+An E-Commerce Single Page Application created using Django Rest API and Vue Js.
 
-## Build Setup
+Main Dependencies:
+- Django:
+  - Django Rest Framework for REST API
+  - Boto3 AWS S3 for Image storing
+- Vue js:
+  - Vuex for state management
+  - Vue Router for routing pages
 
-``` bash
-# install dependencies
-npm install
-
-# serve with hot reload at localhost:8080
-npm run dev
-
-# build for production with minification
-npm run build
-
-# build for production and view the bundle analyzer report
-npm run build --report
-```
-
-For a detailed explanation on how things work, check out the [guide](http://vuejs-templates.github.io/webpack/) and [docs for vue-loader](http://vuejs.github.io/vue-loader).
+- Users can sign in or register with their email
+- Different color and size variants can be added for each item (Shoes) by site admin
+- Users can add or remove items from their cart.
+- Real-time Stock availability is shown on item selection.
+- if unregistered user have some products in cart, his cart will moved to his account on registration
