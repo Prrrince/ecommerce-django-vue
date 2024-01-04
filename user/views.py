@@ -12,8 +12,6 @@ from rest_framework.generics import CreateAPIView
 from .serializers import UserCreateSerializer
 from .models import User
 
-# User = get_user_model()
-
 
 @csrf_exempt
 @api_view(['GET', 'POST'])
